@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <template id="products_buy_now" inherit_id="website_sale.products_item" customize_show="True">
+        name="Buy Now">
+        <xpath expr="//div[hasclass('o_wsale_product_btn')]" position="inside">
+            <a href="#" class="btn btn-primary o_we_buy_now" aria-label="Buy Now" title="Buy Now">
+                <i class="fa fa-bolt mr-2"></i>
+            </a>
+        </xpath>
+    </template>
+    </data>
+</odoo>
